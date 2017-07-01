@@ -5,13 +5,12 @@ It was based in [Building a RESTful Web Service](https://spring.io/guides/gs/res
 
 ### Instructions to run the application
 1. Clone this repository
-2. So, you must choose one of the four alternatives bellow to build and run the application:
-    1. **Alternative 1:** If you prefer to use Gradle, run the command `./gradlew bootRun` on root folder
-    2. **Alternative 2:** Or you can build the JAR file using `./gradlew build` and then running the JAR file<br /> `java -jar build/libs/gs-spring-boot-rest-service-0.1.0.jar`
-    3. **Alternative 3:** If you prefer to use Maven, run the command `./mvnw spring-boot:run` also on root folder
-    4. **Alternative 4:** Or you can yet build the JAR file using `./mvnw clean package` and then running the JAR file<br /> `java -jar target/gs-spring-boot-rest-service-0.1.0.jar`
-3. You must see the message:
-After this, the service is up. If you visit http://localhost:8080/greeting you can see:
+2. So, you must choose **one** of the four alternatives bellow to build and run the application:
+    1. Alternative 1: If you prefer to use Gradle, run the command `./gradlew bootRun` on root folder
+    2. Alternative 2: Or you can build the JAR file using `./gradlew build` and then running the JAR file<br /> `java -jar build/libs/gs-spring-boot-rest-service-0.1.0.jar`
+    3. Alternative 3: If you prefer to use Maven, run the command `./mvnw spring-boot:run` also on root folder
+    4. Alternative 4: Or you can yet build the JAR file using `./mvnw clean package` and then running the JAR file<br /> `java -jar target/gs-spring-boot-rest-service-0.1.0.jar`
+3. After this, the service is up. If you visit http://localhost:8080/greeting you can see:
 ```javascript
  {"id": 1, "content": "Hello, World!"}
 ```
@@ -33,15 +32,15 @@ After this, the service is up. If you visit http://localhost:8080/greeting you c
 - Git 2.8.1
 - Tower 2.4.0 for OSx
 
-## Some other details:
+## Some other details
 
-### Used annotation:
+### Used annotation
 - @RestController
 - @RequestMapping
 - @RequestParam
 - @SpringBootApplication
 
-#### Related annotation:
+#### Related annotation
 - @Controller
 - @ResponseBody
 - @Configuration
