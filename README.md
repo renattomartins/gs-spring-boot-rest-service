@@ -47,3 +47,10 @@ It was based in [Building a RESTful Web Service](https://spring.io/guides/gs/res
 - @EnableAutoConfiguration
 - @EnableWebMvc
 - @ComponentScan
+
+#### Annotations used on test case
+- @RunWith
+- @SpringBootTest
+- @AutoConfigureMockMvc
+- @Autowired
+- @Test
